@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 // import Counter from "./components/Counter";
-import Counter2 from "./components/Counter2";
+// import Counter2 from "./components/Counter2";
+import Counter3 from "./components/Counter3";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
 
         {/* <Counter /> */}
 
-        <Counter2 />
+        {/* <Counter2 /> */}
+
+        <Counter3 />
       </header>
     </div>
   );
