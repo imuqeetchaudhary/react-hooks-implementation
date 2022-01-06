@@ -3,7 +3,8 @@ import "./App.css";
 // import Counter from "./components/Counter";
 // import Counter2 from "./components/Counter2";
 // import Counter3 from "./components/Counter3";
-import Counter4 from "./components/Counter4";
+// import Counter4 from "./components/Counter4";
+import EffectCounter1 from "./components/EffectCounter1";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
 
         {/* <Counter3 /> */}
 
-        <Counter4 />
+        {/* <Counter4 /> */}
+
+        <EffectCounter1 />
       </header>
     </div>
   );
