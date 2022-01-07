@@ -5,7 +5,8 @@ import "./App.css";
 // import Counter3 from "./components/Counter3";
 // import Counter4 from "./components/Counter4";
 // import EffectCounter1 from "./components/EffectCounter1";
-import EffectMouse from "./components/EffectMouse";
+// import EffectMouse from "./components/EffectMouse";
+import MouseContainer from "./components/MouseContainer";
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
 
         {/* <EffectCounter1 /> */}
 
-        <EffectMouse />
+        {/* <EffectMouse /> */}
+
+        <MouseContainer />
       </header>
     </div>
   );

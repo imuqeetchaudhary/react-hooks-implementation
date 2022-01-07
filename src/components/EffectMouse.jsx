@@ -13,6 +13,11 @@ const EffectMouse = () => {
   useEffect((e) => {
     console.log(`useEffect() Called`);
     window.addEventListener("mousemove", logMousePosition);
+
+    return () => {
+      console.log(`Unmounted Mouse Container`);
+      window.removeEventListener("mousemove", logMousePosition);
+    };
   }, []);
 
   return (
