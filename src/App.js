@@ -7,7 +7,9 @@ import "./App.css";
 // import EffectCounter1 from "./components/EffectCounter1";
 // import EffectMouse from "./components/EffectMouse";
 // import MouseContainer from "./components/MouseContainer";
-import DataFetching from "./components/DataFetching";
+// import DataFetching from "./components/DataFetching";
+import ComponentA from "./components/ComponentA";
+import { UserContext, GuestContext } from "./components/Context";
 
 function App() {
   return (
@@ -29,7 +31,13 @@ function App() {
 
         {/* <MouseContainer /> */}
 
-        <DataFetching />
+        {/* <DataFetching /> */}
+
+        <UserContext.Provider value={`Abdul Muqeet Arshad`}>
+          <GuestContext.Provider value={`Guest`}>
+            <ComponentA />
+          </GuestContext.Provider>
+        </UserContext.Provider>
       </header>
     </div>
   );
