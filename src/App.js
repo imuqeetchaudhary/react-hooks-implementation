@@ -8,8 +8,9 @@ import "./App.css";
 // import EffectMouse from "./components/EffectMouse";
 // import MouseContainer from "./components/MouseContainer";
 // import DataFetching from "./components/DataFetching";
-import ComponentA from "./components/ComponentA";
-import { UserContext, GuestContext } from "./components/Context";
+// import ComponentA from "./components/ComponentA";
+// import { UserContext, GuestContext } from "./components/Context";
+import ReducerCounter from "./components/ReducerCounter";
 
 function App() {
   return (
@@ -33,11 +34,13 @@ function App() {
 
         {/* <DataFetching /> */}
 
-        <UserContext.Provider value={`Abdul Muqeet Arshad`}>
+        {/* <UserContext.Provider value={`Abdul Muqeet Arshad`}>
           <GuestContext.Provider value={`Guest`}>
             <ComponentA />
           </GuestContext.Provider>
-        </UserContext.Provider>
+        </UserContext.Provider> */}
+
+        <ReducerCounter />
       </header>
     </div>
   );
