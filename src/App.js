@@ -18,7 +18,8 @@ import "./App.css";
 // import ReducerComponentA from "./components/ReducerComponentA";
 // import ReducerComponentB from "./components/ReducerComponentB";
 // import ReducerDataFetch from "./components/ReducerDataFetch";
-import ParentComponent from "./components/ParentComponent";
+// import ParentComponent from "./components/ParentComponent";
+import FocuInput from "./components/FocuInput";
 
 // export const CounterContext = React.createContext();
 
@@ -67,7 +68,9 @@ function App() {
 
         {/* <ReducerDataFetch /> */}
 
-        <ParentComponent />
+        {/* <ParentComponent /> */}
+
+        <FocuInput />
       </header>
     </div>
   );
