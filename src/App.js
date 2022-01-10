@@ -13,15 +13,16 @@ import "./App.css";
 // import ReducerCounter from "./components/ReducerCounter";
 // import ReducerCounter2 from "./components/ReducerCounter2";
 // import ReducerCounter3 from "./components/ReducerCounter3";
-import { initialState, reducer } from "./components/ReducerContext";
-import React, { useReducer } from "react";
-import ReducerComponentA from "./components/ReducerComponentA";
-import ReducerComponentB from "./components/ReducerComponentB";
+// import { initialState, reducer } from "./components/ReducerContext";
+// import React, { useReducer } from "react";
+// import ReducerComponentA from "./components/ReducerComponentA";
+// import ReducerComponentB from "./components/ReducerComponentB";
+import ReducerDataFetch from "./components/ReducerDataFetch";
 
-export const CounterContext = React.createContext();
+// export const CounterContext = React.createContext();
 
 function App() {
-  const [count, dispatch] = useReducer(reducer, initialState);
+  // const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div className="App">
       <header className="App-header">
@@ -55,13 +56,15 @@ function App() {
 
         {/* <ReducerCounter3 /> */}
 
-        <CounterContext.Provider
+        {/* <CounterContext.Provider
           value={{ countState: count, countDispatch: dispatch }}
         >
           Count - {count}
           <ReducerComponentA />
           <ReducerComponentB />
-        </CounterContext.Provider>
+        </CounterContext.Provider> */}
+
+        <ReducerDataFetch />
       </header>
     </div>
   );
