@@ -17,7 +17,8 @@ import "./App.css";
 // import React, { useReducer } from "react";
 // import ReducerComponentA from "./components/ReducerComponentA";
 // import ReducerComponentB from "./components/ReducerComponentB";
-import ReducerDataFetch from "./components/ReducerDataFetch";
+// import ReducerDataFetch from "./components/ReducerDataFetch";
+import ParentComponent from "./components/ParentComponent";
 
 // export const CounterContext = React.createContext();
 
@@ -64,7 +65,9 @@ function App() {
           <ReducerComponentB />
         </CounterContext.Provider> */}
 
-        <ReducerDataFetch />
+        {/* <ReducerDataFetch /> */}
+
+        <ParentComponent />
       </header>
     </div>
   );
