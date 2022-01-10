@@ -11,7 +11,8 @@ import "./App.css";
 // import ComponentA from "./components/ComponentA";
 // import { UserContext, GuestContext } from "./components/Context";
 // import ReducerCounter from "./components/ReducerCounter";
-import ReducerCounter2 from "./components/ReducerCounter2";
+// import ReducerCounter2 from "./components/ReducerCounter2";
+import ReducerCounter3 from "./components/ReducerCounter3";
 
 function App() {
   return (
@@ -43,7 +44,9 @@ function App() {
 
         {/* <ReducerCounter /> */}
 
-        <ReducerCounter2 />
+        {/* <ReducerCounter2 /> */}
+
+        <ReducerCounter3 />
       </header>
     </div>
   );
