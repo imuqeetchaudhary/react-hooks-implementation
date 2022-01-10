@@ -19,7 +19,8 @@ import "./App.css";
 // import ReducerComponentB from "./components/ReducerComponentB";
 // import ReducerDataFetch from "./components/ReducerDataFetch";
 // import ParentComponent from "./components/ParentComponent";
-import FocuInput from "./components/FocuInput";
+// import FocuInput from "./components/FocuInput";
+import Timer from "./components/Timer";
 
 // export const CounterContext = React.createContext();
 
@@ -70,7 +71,9 @@ function App() {
 
         {/* <ParentComponent /> */}
 
-        <FocuInput />
+        {/* <FocuInput /> */}
+
+        <Timer />
       </header>
     </div>
   );
