@@ -10,7 +10,8 @@ import "./App.css";
 // import DataFetching from "./components/DataFetching";
 // import ComponentA from "./components/ComponentA";
 // import { UserContext, GuestContext } from "./components/Context";
-import ReducerCounter from "./components/ReducerCounter";
+// import ReducerCounter from "./components/ReducerCounter";
+import ReducerCounter2 from "./components/ReducerCounter2";
 
 function App() {
   return (
@@ -40,7 +41,9 @@ function App() {
           </GuestContext.Provider>
         </UserContext.Provider> */}
 
-        <ReducerCounter />
+        {/* <ReducerCounter /> */}
+
+        <ReducerCounter2 />
       </header>
     </div>
   );
