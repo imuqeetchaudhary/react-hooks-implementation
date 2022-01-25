@@ -21,7 +21,8 @@ import "./App.css";
 // import ParentComponent from "./components/ParentComponent";
 // import FocuInput from "./components/FocuInput";
 // import Timer from "./components/Timer";
-import RefParent from "./components/RefParent";
+// import RefParent from "./components/RefParent";
+import HookCounter from "./components/HookCounter";
 
 // export const CounterContext = React.createContext();
 
@@ -76,7 +77,9 @@ function App() {
 
         {/* <Timer /> */}
 
-        <RefParent />
+        {/* <RefParent /> */}
+
+        <HookCounter />
       </header>
     </div>
   );
